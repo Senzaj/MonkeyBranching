@@ -123,6 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _moveSpeed: 2
   _rb: {fileID: 9171975168899691267}
+  _onTakenParticles: {fileID: 7602292278203454164, guid: 4e570aea5e09d3b48a5372c58e5320d3, type: 3}
 --- !u!50 &9171975168899691267
 Rigidbody2D:
   serializedVersion: 4

@@ -6,10 +6,13 @@ namespace Project.EmergingObjectsAndPlayer.Scripts
 {
     public class Canon : MonoBehaviour
     {
+        [SerializeField] private Monkey _monkey;
         [SerializeField] private DistanceJoint2D _joint2D;
         [SerializeField] private LineRenderer _line;
         [SerializeField] private Transform _lineStartPoint;
         [SerializeField] private Rigidbody2D _currentTarget;
+        [SerializeField] private ParticleSystem _onTouchParticles;
+        [SerializeField] private ParticleSystem _shootParticles;
 
         public event Action Moved;
         public event Action TouchedEvilRocket;
@@ -55,8 +58,8 @@ namespace Project.EmergingObjectsAndPlayer.Scripts
 
             if (_targetRB.gameObject.TryGetComponent(out EvilRocket rocket))
             {
-                //
-                
+                _monkey.OnTakenDown();
+
                 rocket.OnExploded();
                 TouchedEvilRocket?.Invoke();
                 return;
@@ -64,7 +67,7 @@ namespace Project.EmergingObjectsAndPlayer.Scripts
             
             if ( _targetRB != _currentTarget)
             {
-                //
+                Instantiate(_onTouchParticles, _targetRB.transform.position, Quaternion.identity);
 
                 if (_isFirstMove)
                 {
@@ -88,7 +91,7 @@ namespace Project.EmergingObjectsAndPlayer.Scripts
             }
             else
             {
-                //
+                Instantiate(_onTouchParticles, _targetRB.transform.position, Quaternion.identity);
                 
                 if (_isFirstMove)
                 {
@@ -133,8 +136,11 @@ namespace Project.EmergingObjectsAndPlayer.Scripts
 
         private IEnumerator Shooting()
         {
+            _monkey.OnShoot();
+            Instantiate(_shootParticles, transform.position, Quaternion.identity);
+            
             float currentHookingTime = 0;
-
+            
             while (_isHooked == false)
             {
                 Vector2 newTargetPos =
