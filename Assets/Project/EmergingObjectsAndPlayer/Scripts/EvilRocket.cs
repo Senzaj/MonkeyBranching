@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Project.EmergingObjectsAndPlayer.Scripts
@@ -13,7 +14,13 @@ namespace Project.EmergingObjectsAndPlayer.Scripts
             
             gameObject.SetActive(false);
         }
-        
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.TryGetComponent(out Firework firework))
+                firework.gameObject.SetActive(false);
+        }
+
         private void OnMouseDown() => _canon.TryHook(_rb);
     }
 }

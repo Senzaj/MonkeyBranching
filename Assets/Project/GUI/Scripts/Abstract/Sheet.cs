@@ -20,6 +20,7 @@ namespace Project.GUI.Scripts.Abstract
 
         public void StartViewing()
         {
+            ShowCanvasGroup();
             _animator.Play(Viewing);
 
             if (_stopTime)
@@ -31,11 +32,8 @@ namespace Project.GUI.Scripts.Abstract
 
         public void StartHiding() => _animator.Play(Hiding);
 
-        private void View()
-        {
-            ShowCanvasGroup();
-            _animator.Play(Idle);
-        }
+        private void View() => _animator.Play(Idle);
+        
 
         private void Hide()
         {

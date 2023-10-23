@@ -6,9 +6,6 @@ namespace Project.GUI.Scripts.Sheets
     {
         private void OnEnable()
         {
-            if (_viewed)
-                StartViewing();
-
             if (_viewButton == null || _hideButton == null) return;
             _viewButton.onClick.AddListener(StartViewing);
             _hideButton.onClick.AddListener(StartHiding);

@@ -15,9 +15,12 @@ namespace Project.Indefinite.Scripts
         [SerializeField] private EndGameSheet _endGameSheet;
         [SerializeField] private Canon _canon;
         [SerializeField] private Monkey _monkey;
+
+        private bool _lost;
         
         public void Launch()
         {
+            _lost = false;
             _canon.TouchedEvilRocket += OnLost;
             _monkey.Exploded += OnLost;
             _monkey.TookCoin += OnCoinTaken;
@@ -52,6 +55,8 @@ namespace Project.Indefinite.Scripts
         
         private void OnLost()
         {
+            if (_lost) return;
+            _lost = true;
             _endGameSheet.OnLose(_recordCaretaker.GetCurrentScore(), _recordCaretaker.TrySetRecord());
             StartCoroutine(ViewingEndGameSheet());
         }

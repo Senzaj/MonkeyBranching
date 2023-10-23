@@ -31,7 +31,7 @@ namespace Project.EmergingObjectsAndPlayer.Scripts
             {
                 //
                 
-                TookCoin?.Invoke();
+                Exploded?.Invoke();
             }
         }
     }

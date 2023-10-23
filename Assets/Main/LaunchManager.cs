@@ -16,6 +16,8 @@ namespace Main
 
         private void Awake()
         {
+            Time.timeScale = 1;
+            
             if (_isMain == false)
             {
                 SetLandscape();
