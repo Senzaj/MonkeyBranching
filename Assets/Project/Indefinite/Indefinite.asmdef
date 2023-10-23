@@ -1,0 +1,17 @@
+{
+    "name": "Indefinite",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c4fcfcc13c24f14439782d3d23089d35",
+        "GUID:2ac16f3673f331a409377019d316c468"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

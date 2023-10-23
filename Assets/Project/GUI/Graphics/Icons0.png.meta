@@ -1,0 +1,486 @@
+fileFormatVersion: 2
+guid: b7f577a04ad76c345836518e058cb37d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arrow
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 2017
+        width: 133
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb9c1417d4b0294a811a6587edf2629
+      internalID: 934631025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settings
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 2016
+        width: 170
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7628aad6745006544b66cb1c52dbb7d1
+      internalID: -2072861891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1561
+        width: 125
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f885b4cc6062714592e3422e74ddf9d
+      internalID: -337796669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1112
+        width: 155
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7939a495d4218eb4cb5cc76890e7b173
+      internalID: -23876509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Music
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1117
+        width: 142
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a979a039ecdd22c4b958c802bce5dcf9
+      internalID: -613544000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 660
+        width: 179
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880cfc5de19c71e4b8b64ac20f55faf7
+      internalID: -1812212991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeMin
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 661
+        width: 231
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc57a1b2300dbb4f8451f67e622d4c4
+      internalID: -516334145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: v
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 668
+        width: 204
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff1d36ffb54713419e88a3ffa1a8588
+      internalID: -789408740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeMax
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 661
+        width: 226
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca6d073824674142948009950b1123f
+      internalID: -1510344354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arrow: 934631025
+      Icons0_0: 1247811878
+      Icons0_1: 968865879
+      Icons0_10: -2018070851
+      Icons0_100: -1272257117
+      Icons0_101: -1363050862
+      Icons0_102: 85236198
+      Icons0_103: -293660534
+      Icons0_104: -1940007392
+      Icons0_105: 1812882296
+      Icons0_106: -562319921
+      Icons0_107: -1642070704
+      Icons0_108: 831281543
+      Icons0_109: 1825364265
+      Icons0_11: -1361036028
+      Icons0_110: -514697764
+      Icons0_111: 1764196967
+      Icons0_112: 1681032069
+      Icons0_113: 1369272713
+      Icons0_114: -382002639
+      Icons0_115: 1997459644
+      Icons0_116: 107602775
+      Icons0_117: 766148275
+      Icons0_12: 856515838
+      Icons0_13: -1697525157
+      Icons0_14: -333932425
+      Icons0_15: 382209755
+      Icons0_16: 702376862
+      Icons0_17: 35488850
+      Icons0_18: 1010920934
+      Icons0_19: -1521543803
+      Icons0_2: 991527000
+      Icons0_20: 523272663
+      Icons0_21: 1175108506
+      Icons0_22: 620931853
+      Icons0_23: 126522934
+      Icons0_24: -475494986
+      Icons0_25: 1765274289
+      Icons0_27: 708509221
+      Icons0_28: -117275734
+      Icons0_29: -896298923
+      Icons0_3: 77785076
+      Icons0_30: -2055791510
+      Icons0_31: -386976806
+      Icons0_32: -2074506238
+      Icons0_33: -225976962
+      Icons0_34: 1538289902
+      Icons0_35: 803580812
+      Icons0_36: -1325263766
+      Icons0_37: -673981038
+      Icons0_38: 1409663169
+      Icons0_39: 461900212
+      Icons0_4: -627566293
+      Icons0_40: 1245766389
+      Icons0_42: 106929286
+      Icons0_44: 926323926
+      Icons0_45: -1126057920
+      Icons0_46: -505598462
+      Icons0_47: -2092107400
+      Icons0_48: -777914915
+      Icons0_49: -511397727
+      Icons0_50: 1812261305
+      Icons0_51: -963776015
+      Icons0_52: 1160297558
+      Icons0_53: 1153938906
+      Icons0_54: 1340830785
+      Icons0_55: -2135935736
+      Icons0_56: -1211281459
+      Icons0_57: 682084320
+      Icons0_58: -1202967318
+      Icons0_59: -1308240150
+      Icons0_6: 1192532672
+      Icons0_60: 1399218260
+      Icons0_61: 221991608
+      Icons0_62: -1124854164
+      Icons0_63: -905123143
+      Icons0_64: -1286139304
+      Icons0_65: -897901734
+      Icons0_66: -221392182
+      Icons0_67: 2070074546
+      Icons0_69: -25573957
+      Icons0_70: -594636475
+      Icons0_73: 1989081343
+      Icons0_75: 1213020727
+      Icons0_76: 2023186325
+      Icons0_77: -1751339710
+      Icons0_78: 85348797
+      Icons0_79: 875051325
+      Icons0_8: -2034228909
+      Icons0_80: 1818275567
+      Icons0_81: 1106737530
+      Icons0_82: -1096051057
+      Icons0_83: -1980728950
+      Icons0_84: -1566464266
+      Icons0_85: 1263991111
+      Icons0_86: -1470560229
+      Icons0_87: 1520996160
+      Icons0_88: -712773265
+      Icons0_89: -316680737
+      Icons0_9: -741094848
+      Icons0_90: -769718884
+      Icons0_91: 2139624037
+      Icons0_92: -1515957109
+      Icons0_93: -2070242719
+      Icons0_94: -851264854
+      Icons0_95: -1865829735
+      Icons0_96: -764754069
+      Icons0_97: 314455502
+      Icons0_98: 70133232
+      Icons0_99: -1978132306
+      Music: -613544000
+      Pause: -337796669
+      Play: -23876509
+      Settings: -2072861891
+      VolumeMax: -1510344354
+      VolumeMin: -516334145
+      v: -789408740
+      x: -1812212991
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
