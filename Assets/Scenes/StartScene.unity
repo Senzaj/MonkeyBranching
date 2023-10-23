@@ -874,8 +874,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076294, y: 340}
-  m_SizeDelta: {x: 1090.2173, y: 888.2318}
+  m_AnchoredPosition: {x: 0, y: 379}
+  m_SizeDelta: {x: 1053, y: 635.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &563302277
 MonoBehaviour:
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Monkey Branching
+  m_text: Tap Fireworks Climber
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36208604b7d94ba4790bf06394f79fa9, type: 2}
   m_sharedMaterial: {fileID: 8177361298180473920, guid: 36208604b7d94ba4790bf06394f79fa9, type: 2}
@@ -924,7 +924,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 193.45
+  m_fontSize: 192.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1010,8 +1010,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100.33, y: -158}
-  m_SizeDelta: {x: 377.4211, y: 311.09375}
+  m_AnchoredPosition: {x: 100.33, y: -131}
+  m_SizeDelta: {x: 313.1222, y: 258.09}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &833498279
 MonoBehaviour:
@@ -3107,6 +3107,6 @@ SceneRoots:
   - {fileID: 288940232}
   - {fileID: 19848371}
   - {fileID: 1740325250}
+  - {fileID: 9055975573979657843}
   - {fileID: 420451389}
   - {fileID: 200335355}
-  - {fileID: 9055975573979657843}
